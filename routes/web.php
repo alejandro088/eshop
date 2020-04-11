@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/templates/{theme}/{page?}', function ($theme, $page = null) {
+
+    if ($page == null)
+        return view("templates.$theme.index");
+        
+    return view("templates.$theme.$page");
+});

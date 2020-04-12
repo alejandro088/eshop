@@ -104,13 +104,6 @@
 			</div>
 	</section>
 	<!--/ End Contact -->
-	
-	<!-- Map Section -->
-	<div class="map-section">
-		<div id="myMap"></div>
-	</div>
-	<!--/ End Map Section -->
-	
 
 	
 @endsection
